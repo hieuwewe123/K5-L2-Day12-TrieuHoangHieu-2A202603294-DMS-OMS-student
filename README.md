@@ -9,7 +9,7 @@
 - [Nhãn mới nhất sau sửa](export_final_v2.zip) · [Kiểm tra bản mới nhất](check_final_v2.txt): **22 ảnh, 0 lỗi, 0 cảnh báo**.
 - [Log review nhận về và phản hồi](disagreement_log.csv) · [Review Hiếu chấm Dũng](review_Hieu_cho_Dung.md)
 
-Schema cập nhật có `child_seat.occupied=yes`; xem [SCHEMA_UPDATE.md](SCHEMA_UPDATE.md). Các export chỉ chứa nhãn, không chứa ảnh.
+Schema cập nhật có `child_seat.occupied=yes` trong `labels_cabin_v1.json`. Các export chỉ chứa nhãn, không chứa ảnh.
 
 ---
 
