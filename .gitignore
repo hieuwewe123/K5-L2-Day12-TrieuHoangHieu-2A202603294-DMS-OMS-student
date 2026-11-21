@@ -11,3 +11,11 @@ __pycache__/
 *.pyc
 .DS_Store
 .env*
+
+# Local staging, drafts and cancelled review; final artifacts remain tracked
+K5-L2-DAY12-TrieuHoangHieu-2A202603294-DMSOMS/
+*-DRAFT.zip
+export_draft.zip
+check_draft.txt
+disagreement_DuongQuocAnh.csv
+check_peer_DuongQuocAnh.txt
