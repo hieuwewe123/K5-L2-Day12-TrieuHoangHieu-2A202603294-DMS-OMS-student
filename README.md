@@ -1,5 +1,18 @@
 # Lab Ngày 12 — DMS & OMS: gán nhãn khung hình cabin RGB + IR
 
+## Bài nộp của Triệu Hoàng Hiếu
+
+**MSSV:** 2A202603294 · **Bộ ảnh:** G01 · **Nhóm:** Triệu Hoàng Hiếu, Dương Quốc Anh, Hà Huy Dũng.
+
+- [Tải bộ bài nộp ZIP](K5-L2-DAY12-TrieuHoangHieu-2A202603294-DMSOMS.zip)
+- [Báo cáo kết quả](REPORT.md) · [Xử lý sau review](REWORK.md) · [Thông tin nhóm](TEAM.md)
+- [Nhãn mới nhất sau sửa](export_final_v2.zip) · [Kiểm tra bản mới nhất](check_final_v2.txt): **22 ảnh, 0 lỗi, 0 cảnh báo**.
+- [Log review nhận về và phản hồi](disagreement_log.csv) · [Review Hiếu chấm Dũng](review_Hieu_cho_Dung.md)
+
+Schema cập nhật có `child_seat.occupied=yes`; xem [SCHEMA_UPDATE.md](SCHEMA_UPDATE.md). Các export chỉ chứa nhãn, không chứa ảnh.
+
+---
+
 AI20K K5 · L2 · Ngày 12 · 14:00–18:00 · CVAT chạy trên máy của bạn · làm **cá nhân hoặc nhóm 2–4 người**
 
 Bạn gán nhãn **22 khung hình** cabin (tối đa 26) theo Guideline Cabin v1.0. Sau đó bạn tự kiểm bằng script `cabin_check`, đổi file export với một bạn để đối chiếu, rồi sửa lại. Cuối buổi bạn ghi những gì ảnh hồng ngoại (IR) làm mất so với ảnh màu, và viết bản nháp danh sách lớp cho model DMS/OMS.

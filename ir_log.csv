@@ -1,0 +1,10 @@
+﻿frame_id,source,phenomenon,affected_field,effect_on_label
+S01_ir,IR_sim,Vải ghế và hai ghế trẻ em sáng rõ hơn so với RGB tối; mất màu vải,child_seat / infant_seat,Phân biệt bằng hình dạng; không suy occupied hay facing từ màu
+S02_ir,IR_sim,Áo xanh và họa tiết cam của người lớn chuyển thành các mức xám,person / object.type,Không dùng màu để suy loại đối tượng; box person giữ theo phần cơ thể thấy được
+S04_ir,IR_sim,Tóc vẫn che một phần mặt dù ảnh sáng hơn,face,Chỉ box phần mặt thấy được; không coi IR-sim là nhìn xuyên vật che
+S06_ir,IR_sim,Túi ở ghế giữa thấy rõ quai và ngăn hơn so với RGB rất tối,object.type / seat,Gán bag ở rear_middle theo hình dạng; cần kiểm riêng ảnh RGB khi tăng sáng hiển thị
+S08_ir,IR_sim,Ghế lớn màu đỏ và ghế hoa văn xanh trong RGB đều thành xám,child_seat,Dựa hình dạng tựa đầu và thân ghế; không dùng màu để phân biệt lớp
+D02,real_IR,Hai tròng kính có đốm sáng mạnh làm khó thấy khe mắt,eye_left / eye_right / face13,Hai mắt unknown; các điểm mắt định vị được đánh occluded
+D02,real_IR,Chai nước che vùng miệng khi đưa lên uống,face13 / phone,Các điểm môi không định vị chắc đánh outside; không gán chai thành phone
+D03,real_IR,"Tài xế cúi đầu, vùng mắt tối và một mắt ở xa khó xác định",eye_left / eye_right / face13,unknown cho mắt; điểm không định vị được đánh outside; không suy từ mắt kia
+D06,real_IR,"Bàn tay gần camera quá sáng, mất chi tiết ngón; kính đang cầm trên tay",hand / glasses,Box tay theo đường bao thấy được; glasses=none vì kính không nằm trên mặt
